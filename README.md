@@ -1,1 +1,2 @@
-# Twitter-Slackbot
+### Twitter-Slackbot
+This was the project of the sixth week of my Data Science bootcamp by the Spiced Academy and is a complete data-pipeline. Tweets are first scraped from Twitter and then stored in a MongoDB-database. After the ETL-job the sentiment of the tweets are analyzed and the processed tweets are stored in a second Postgres-SQL-database. A Slackbot then will post a selection of the best or worst tweets on a slack-channel every 10 minutes.
